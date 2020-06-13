@@ -1,0 +1,271 @@
+/* =============== Global / General =============== */
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #808080;
+}
+
+.navbar ul li {
+    font-family: 'Raleway', sans-serif;
+    color: #808080;
+}
+
+body {
+    background: url('../img/tile.jpg');
+}
+
+/* =============== Modal styling =============== */
+
+.modal-header {
+    border-bottom-color: green;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-top-color: green;
+    border-top-width: 15px;
+}
+
+.h3, h3 {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.h4, h4 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.h5, h5 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.mymodal-container p {
+    opacity: .70;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+#modal-button {
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+#menuPrice {
+    color: black;
+    font-weight: bold;
+    font-family: 'helvetica';
+    opacity: .75;
+}
+
+#menuTitle {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.modal-footer {
+    border: none;
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.modal-body {
+    border-bottom-style: solid;
+    border-bottom-color: green;
+    border-bottom-width: 15px;
+}
+
+#oz {
+    font-size: 12px;
+}
+
+/* =============== Jumbotron styling =============== */
+
+.jumbotron {
+    opacity: .70;
+    margin-bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+#logo-image {
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    background-size: 220px 220px;
+    margin-top: -12px;
+    opacity: 1;
+}
+
+.hero-review {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-top: 15px;
+    height: 94px;
+}
+
+.hero-review p {
+    height: 100%;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.hero-address {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+/* ================== Hero Image ================== */
+
+#steakhouse-pic {
+    background-image: url('../img/riverside_inn.jpg');
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 450px;
+}
+
+/* =============== Navbar  =============== */
+
+#top-navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#top-navbar #navbar ul li{
+    font-size: 16px;
+    opacity: .70;
+}
+
+@media only screen and (max-width:1023px){
+    div #col-left1 {width: 22%;}
+}
+
+@media only screen and (max-width:1023px){
+    div #col-right1  {width: 3%;}
+}
+
+@media only screen and (max-width:1023px){
+    .col-sm-6 {width: 75%;}
+}
+
+/* =============== Services  =============== */
+
+.featurette .lead {
+    font-size: 16px;
+    opacity: .70;
+}
+
+.featurette-heading {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+/* =============== Specials  =============== */
+
+#specials {
+    background: white;
+}
+
+#specials-img {
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#special-day {
+    padding-top: 70px;
+}
+
+#special-day {
+    width: 90%;
+}
+
+#special-day header h3 {
+    color: black;
+    opacity: .65;
+    font-weight: bolder;
+    font-size: 22px;
+    width: inherit;
+}
+
+#special-day header p {
+    border-top: 1px solid lightblue;
+    padding-top: 10px;
+    font-size: 16px;
+    opacity: .70;
+    width: inherit;
+}
+
+/* =============== Contact Us  =============== */
+
+#name-email {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+#contact {
+    padding-top: 30px;
+}
+
+#contact .lead {
+    opacity: .80;
+    font-size: 18px;
+}
+
+#contact-button {
+    background-color: mediumblue;
+    border-bottom-color: mediumblue;
+    border-left-color: mediumblue;
+    border-right-color: mediumblue;
+    border-right-color: mediumblue;
+    border-top-color: mediumblue;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px;
+}
+
+@media only screen and (min-width:320px){
+    #name-email .row .col-sm-6 {
+        width: 100%;
+    ;}
+}
+
+@media only screen and (min-width:768px){
+    #name-email .row .col-sm-6 {width: 50%;}
+}
+
+/* ===============   FOOTER  =============== */
+
+footer {
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer p {
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+footer ul.nav.navbar-nav li a {
+    color: #808080;
+    font-size: 14px;
+}
+
+#freepik {
+    padding-right: 16%;
+}
+
